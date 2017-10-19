@@ -1,0 +1,309 @@
+h1{
+font-family:calibri;
+text-align:left;
+padding-left:10px;}
+
+.box{
+height:auto;
+width:350px;
+background-color:#ffffff;
+margin:auto;
+margin-top:10px;
+padding-top:5px;
+padding-left:3px;
+border-color:#cfcfd1;
+border-style:solid;
+border-width:thin;
+}
+
+.box input[type="text"]{
+	height:35px;
+box-shadow:1px,1px,2px,blue;
+width:305px;
+padding-left:3px;
+border:1px solid #929293 ;
+color: black;
+font-weight:bolder;
+border-radius:3px;} 
+
+.box p{
+color:black;
+text-align:left;
+margin:1px;
+padding:2px;
+padding-left:20px;
+font-family:Helvetica;
+font-weight:bold;
+text-decoration:none;
+}
+
+
+ .box a:hover{
+color:red;
+text-decoration:underline;
+}
+
+.box input[type="password"]{
+height:35px;
+box-shadow:1px,1px,2px,blue;
+width:305px;
+padding-left:3px;
+border:1px solid #929293 ;
+color: black;
+font-weight:bolder;
+border-radius:3px;} 
+
+.box input[type="submit"]{
+height:35px;
+width:305px;
+border:1px solid #929293;
+color: black;
+background-color:#3983f9;
+border-radius:3px;
+cursor:pointer;
+} 
+
+
+.box p1{
+font-size:small;
+font-family:calibri;
+text-align:left;
+}
+
+
+.box p2{
+font-size:small;
+color:6c6c6d;
+font-family:calibri;
+}
+                                                                             
+
+
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 99px;
+    height: 1px;
+    background: grey;
+    opacity: 0.4;
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+                                 
+.box input[type="button"]{
+height:35px;
+width:305px;
+border:1px solid #929293;
+color: black;
+text-align:center;
+background-color:#d6d6d8;
+border-radius:3px;
+cursor:pointer;
+}
+
+hr{
+color: #d6d6d8;
+border-width:thin;
+padding-top:2px;
+opacity:0.4;
+
+}
+
+
+a{
+color:#1430e5;
+text-decoration:none;
+font-family:Helvetica;
+font-size:small;
+}
+
+
+a:hover{
+color:red;
+text-decoration:underline;
+}
+body {
+text-align:center;
+background-image:url("");
+background-repeat:no-repeat;
+background-position:top-center;
+
+}
+
+p3{
+font-size:small;
+color:6c6c6d;
+font-family:calibri;}
+
+
+
+
+
+.container{
+height:450px;
+width:330px;
+background-color:#ffffff;
+margin:auto;
+margin-top:2px;
+padding-top:3px;
+border-color:#cfcfd1;
+border-style:solid;
+border-width:thin;
+}
+
+.container p{
+color:black;
+text-align:left;
+margin:2px;
+padding:7px;
+padding-left:20px;
+font-family:Helvetica;
+font-weight:bold;
+}
+
+.container p0{
+color:black;
+text-align:left;
+margin:2px;
+padding:7px;
+padding-left:0px;
+font-family:Helvetica;
+font-weight:bold;
+}
+
+
+.container input[type="text"]{
+height:24px;
+width:179px;
+border:1px solid #929293;
+color: black;
+border-radius:3px;
+padding-left:3px;
+} 
+
+.container input[type="number"]{
+height:24px;
+width:179px;
+border:1px solid #929293;
+color: black;
+border-radius:3px;
+padding-left:3px;
+} 
+
+.container input[type="Email"]{
+height:24px;
+width:179px;
+border:1px solid #929293;
+color: black;
+border-radius:3px;
+padding-left:3px;
+} 
+
+
+.container textarea{
+height:24px;
+width:190px;
+border:1px solid #929293;
+color: black;
+border-radius:3px;
+border-spacing:150px;
+padding-left:3px;
+
+} 
+
+.container input[type="submit"]{
+height:35px;
+width:270px;
+border:1px solid #929293;
+color: black;
+background-color:#3983f9;
+border-radius:3px;
+cursor:pointer;
+} 
+
+ .container p5{
+font-size:small;
+color:black;
+font-family:calibri;
+padding:2x;
+}
+
+
+.container p6{
+font-size:small;
+color:blue;
+font-family:calibri;}
+
+.container p7{
+font-size:medium;
+padding-top:5px;
+padding-left:4px;
+color:#585859;
+font-family:calibri;
+text-align:left;
+}
+
+
+
+
+.wrapper{
+height:400px;
+width:330px;
+background-color:#ffffff;
+margin:auto;
+margin-top:10px;
+padding-top:5px;
+border-color:#cfcfd1;
+border-style:solid;
+border-width:thin;
+}
+
+.wrapper p{
+color:black;
+text-align:left;
+margin:1px;
+padding:10px;
+padding-left:20px;
+font-family:Helvetica;
+font-weight:bold;
+text-decoration:none;}
+
+.wrapper input[type="text"]{
+height:24px;
+width:178px;
+border:1px solid #929293;
+color: black;
+border-radius:3px;
+padding-left:3px;
+} 
+
+.wrapper input[type="password"]{
+height:24px;
+width:178px;
+border:1px solid #929293;
+color: black;
+border-radius:3px;
+padding-left:3px;
+} 
